@@ -1,0 +1,10 @@
+import pandas as pd
+data = pd.read_csv('https://tinyurl.com/titanic-csv')
+d1 = data['PClass'].replace('1st','First')
+print(data)
+print(d1)
+d2 = data['Sex'].replace(['female','male'],['woman','man']).head()
+print(data)
+print(d2)
+data['Sex'].replace(['female','male'],['woman','man'],inplace = True)
+print(data)
