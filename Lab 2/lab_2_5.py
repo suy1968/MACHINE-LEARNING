@@ -1,0 +1,12 @@
+import numpy as np
+print(0 * np.nan)
+print(np.nan == np.nan)
+print(np.inf > np.nan)
+print(np.inf)
+print(np.nan - np.nan)
+print(np.nan in set([np.nan]))
+print(0.3 == 3 * 0.1)
+print(np.nan)
+print(0.3)
+print(3*0.1)
+print(np.inf > 10000000000)
