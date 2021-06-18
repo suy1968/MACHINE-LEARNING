@@ -1,0 +1,5 @@
+fh = open('demo.txt','a+')
+fh.write('Jaypee\n')
+fh.write('Jaypee\n')
+fh.write('Jaypee\n')
+fh.close()
